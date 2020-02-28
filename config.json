@@ -1,0 +1,16 @@
+{
+  "name": "Turntable Stream on IP",
+  "version": "0.6",
+  "slug": "turntable_fedebruni84",
+  "description": "Turntable Stream on IP using icecast, port is 8010",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "audio": "yes",
+  "ports": {
+    "8010/tcp": 8010
+  },
+  "privileged": ["SYS_NICE"],
+  "options": {},
+  "schema": {}
+}
